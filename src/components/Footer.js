@@ -8,7 +8,7 @@ const Footer = () => {
     <section id="footer">
         <div className="container">
         <div className="footer-row">
-            <div className="footer-col">
+            <div className="footer-col-1">
                 <img src={flogo} alt='Metabnb' className='footer-img'  width='150'/>
                 <div className="social-icons">
                     <img src={fb} alt='facebook' width='25' />
@@ -18,7 +18,7 @@ const Footer = () => {
                 
                 </div>
                 <div className="footer-col">
-                <p>Community</p>
+                <h4>Community</h4>
                 <ul>
                     <li>NFT</li>
                     <li>Tokens</li>
@@ -26,8 +26,9 @@ const Footer = () => {
                     <li>Discord</li>
                 </ul>
                 </div>
+    
                 <div className="footer-col">
-                <p>Places</p>
+                <h4>Places</h4>
                 <ul>
                     <li>castle</li>
                     <li>farms</li>
@@ -35,8 +36,9 @@ const Footer = () => {
                     <li>learn more</li>
                 </ul>
                 </div>
+
                 <div className="footer-col">
-                <p>About us</p>
+                <h4>About us</h4>
                 <ul>
                     <li>Road Map</li>
                     <li>Creators</li>

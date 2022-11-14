@@ -10,6 +10,13 @@ const Header = () => {
         <p>we provide you access to luxury and affordable 
             houses in the metaverse, get a chance to turn your 
             imagination to reality at your comfort zone</p>
+
+            <form>
+              <div className="btn-search">
+              <input type='search' placeholder='search for location' />
+              <button className='search-btn'>Search</button>
+              </div>
+            </form>
     </div>
     </div>
     <div className="header-col">
