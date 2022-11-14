@@ -234,6 +234,27 @@ ul li{
 .footer-col p{
   margin-left: 25px;
 }
+.hidden{
+  display: none;
+}
+.pts-option{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.pts-option ol li{
+  list-style: none;
+  display: inline-block;
+  padding-right: 05px;
+  width: 10%;
+  height: 15px;
+  color: #434343;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+
+
+
 
 @media screen and (max-width:576px){
   .nav-img{
