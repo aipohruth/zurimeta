@@ -11,7 +11,8 @@ const PlaceToStay = () => {
     <>
         <div className='container'>
       <NavBar />
-      <div className=" pt-5">
+      </div>
+      <div className="containers pt-5">
       <ul className="nav gap-2 gap-lg-4">
         <li className="nav-item fs-5">
           <Link className="nav-link text-dark" aria-current="page" to="#">Restaurant</Link>
@@ -46,6 +47,7 @@ const PlaceToStay = () => {
       </ul>
       </div>
 
+        <div className="container">
       <div class="row px-2 py-5 px-lg-5">
       {showData2.map((info, id) => (
         <div className="col-12 col-md-6 col-lg-3 p-2" key={id}>
@@ -53,8 +55,9 @@ const PlaceToStay = () => {
         </div>
       ))}
     </div>
+    </div>
                    
-        </div>
+        
       <Footer />
     
     </>
