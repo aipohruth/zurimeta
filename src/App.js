@@ -1,8 +1,11 @@
-import { BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import Home from './components/Home';
+import { BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import PlaceToStay from './components/PlaceToStay';
+
+
 
 const App = () => {
  
@@ -13,12 +16,13 @@ const App = () => {
       <main>
       <Routes>
         <Route path='/placetostay' element={<PlaceToStay />}/>
-        <Route path='/Home' element={<Home />}/>
+        <Route path='/' element={<Home />}/>
         
         </Routes> 
-
+        
       </main>  
-    </Router>
+  </Router>
+  
   )
 }
 

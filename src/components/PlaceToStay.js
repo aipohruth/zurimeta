@@ -16,15 +16,52 @@ import w5 from '../Assets/w5.png';
 import w6 from '../Assets/w6.png';
 import w7 from '../Assets/w7.png';
 import w8 from '../Assets/w8.png';
+import location from '../Assets/location.png';
 import {FaStar} from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const PlaceToStay = () => {
   return (
     <>
         <div className='container'>
       <NavBar />
-
-      <div className="pts-option">
+      <div className="px-2 p-lg-5">
+      <ul className="nav gap-2 gap-lg-4">
+        <li className="nav-item fs-5">
+          <Link className="nav-link text-dark" aria-current="page" to="#">Restaurant</Link>
+        </li>
+        <li className="nav-item fs-5">
+          <Link className="nav-link text-dark" to="#">Cottage</Link>
+        </li>
+        <li className="nav-item fs-5">
+          <Link className="nav-link text-dark" to="#">Castle</Link>
+        </li>
+        <li className="nav-item fs-5">
+          <Link className="nav-link text-dark" to="#">Fantasy city</Link>
+        </li>
+        <li className="nav-item fs-5">
+          <Link className="nav-link text-dark" to="#">beach</Link>
+        </li>
+        <li className="nav-item fs-5">
+          <Link className="nav-link text-dark" to="#">Cabins</Link>
+        </li>
+        <li className="nav-item fs-5">
+          <Link className="nav-link text-dark" to="#">Off-grid</Link>
+        </li>
+        <li className="nav-item fs-5">
+          <Link className="nav-link text-dark" to="#">Farm</Link>
+        </li>
+        <li className="nav-item ps-2 ps-lg-4">
+          <button type="button" className="btn border sm-white btn-sm">
+            <span className="fs-5 btn btn-sm">Location</span>
+            <img src={location} alt='icon' className='px-3'/>
+          </button>
+        </li>
+      </ul>
+      
+    </div>
+  
+      {/*<div className="pts-option">
         <ol>
             <li>Restaurant</li>
             <li>Cottage</li>
@@ -35,7 +72,7 @@ const PlaceToStay = () => {
             <li>Off Grid</li>
             <li>Farm</li>
         </ol>
-        </div>
+        </div>*/}
       
 
       <div className="show-row">
