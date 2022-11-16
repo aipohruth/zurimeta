@@ -25,7 +25,7 @@ const PlaceToStay = () => {
     <>
         <div className='container'>
       <NavBar />
-      <div className="px-2 p-lg-5">
+      <div className=" pt-5">
       <ul className="nav gap-2 gap-lg-4">
         <li className="nav-item fs-5">
           <Link className="nav-link text-dark" aria-current="page" to="#">Restaurant</Link>
@@ -51,15 +51,15 @@ const PlaceToStay = () => {
         <li className="nav-item fs-5">
           <Link className="nav-link text-dark" to="#">Farm</Link>
         </li>
-        <li className="nav-item ps-2 ps-lg-4">
-          <button type="button" className="btn border sm-white btn-sm">
+        <li className="nav-item ps-2 ps-lg-4 mb-4 ">
+         <button type="button" className="btn border sm-white btn-sm">
             <span className="fs-5 btn btn-sm">Location</span>
             <img src={location} alt='icon' className='px-3'/>
           </button>
         </li>
       </ul>
-      
-    </div>
+      </div>
+
   
       {/*<div className="pts-option">
         <ol>
