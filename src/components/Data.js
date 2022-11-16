@@ -86,6 +86,62 @@ export const showData2 = [
         time: "available for 2weeks stay", 
         logo: "w4.png"
       },
+     {
+      title: "Desert king",
+      price: "1MBT per night",
+      distance: "2345km away",
+      time: "available for 2weeks stay", 
+      logo: "h1.png"
+    },
+    {
+        title: "Desert king",
+        price: "1MBT per night",
+        distance: "2345km away",
+        time: "available for 2weeks stay", 
+        logo: "h2.png"
+      },
+      {
+        title: "Desert king",
+        price: "1MBT per night",
+        distance: "2345km away",
+        time: "available for 2weeks stay", 
+        logo: "h3.png"
+      },
+      {
+        title: "Desert king",
+        price: "1MBT per night",
+        distance: "2345km away",
+        time: "available for 2weeks stay", 
+        logo: "h4.png"
+      },
+      {
+        title: "Desert king",
+        price: "1MBT per night",
+        distance: "2345km away",
+        time: "available for 2weeks stay", 
+        logo: "h5.png"
+      },
+      {
+        title: "Desert king",
+        price: "1MBT per night",
+        distance: "2345km away",
+        time: "available for 2weeks stay", 
+        logo: "h6.png"
+      },
+      {
+        title: "Desert king",
+        price: "1MBT per night",
+        distance: "2345km away",
+        time: "available for 2weeks stay", 
+        logo: "h7.png"
+      },
+      {
+        title: "Desert king",
+        price: "1MBT per night",
+        distance: "2345km away",
+        time: "available for 2weeks stay", 
+        logo: "h8.png"
+      },
       {
         title: "Desert king",
         price: "1MBT per night",
