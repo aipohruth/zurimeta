@@ -193,14 +193,17 @@ form input{
     align-items: flex-start;
     padding-top: 30px;
   }
-  .header-col{
-    width: 360px;
+   .header-col{
+    width: 100%;
+  }
+  .btn-search{
+    width:98%;
   }
   .header-col h1{
     font-size: 30px;
   }
   .header-content p{
-    max-width: 300px;
+    max-width: 500px;
   }
   .header-img{
     width: 300px;
