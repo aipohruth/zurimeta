@@ -79,7 +79,7 @@ form input{
   width: 90%;
   height: 40px;
   display: block;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 1px solid  #A3A3A3;
 }
 ::placeholder{
