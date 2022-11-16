@@ -13,7 +13,7 @@ const Card = ({ title, price, distance, time, logo }) => {
           <span className="small text-black">{title}</span>
           <span className="small text-black float-end fw-semibold">{price}</span>
         </div>
-        <div>
+        <div className="dis-time">
           <span className="small text-black">{distance}</span>
           <span className="small mb-4 fs-10 float-end text-black">{time}</span>
         </div>
