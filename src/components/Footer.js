@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <section id="footer">
         
-    <div className="footer-row mr-2 row bg-black">
+    <div className="footer-row mx-2 row bg-black">
       <div className="col-12 col-lg-3 d-flex flex-column">
         <div className="p-3 p-lg-5">
           <img src={flogo} alt="metabnb" />
