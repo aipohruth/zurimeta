@@ -6,6 +6,7 @@ import Card from "./Card";
 const Show = () => {
     
   return (
+        <div className="container">
         <section className="show">
         <h1>Inspiration for your next adventure</h1>
         <div class="row px-2 py-5 px-lg-5">
@@ -17,6 +18,7 @@ const Show = () => {
       </div>
         
         </section>
+        </div>
   )
 }
 

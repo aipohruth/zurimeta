@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  font-family: 'Red Rose', cursive;
+  font-family: 'Red Rose';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -13,6 +13,7 @@ body {
 .container{
   width: 1200px;
   margin: auto;
+  font-family: 'Red-Rose';
 }
 /*Nav bar*/
 .nav-img{
@@ -62,6 +63,7 @@ span{
 .header-col h1{
   font-weight: 500;
   font-size: 40px;
+  font-family: 'Red Rose';
 }
 .header-content p{
   max-width: 400px;
@@ -70,6 +72,7 @@ span{
   font-size: 16px;
   color: #434343;
   line-height: 25px;
+  font-family: 'Red Rose';
 }
 .btn-search{
   position: relative;
@@ -168,6 +171,7 @@ form input{
 #footer{
   background-color: black;
   color: #f7f7f7!important;
+  font-family: 'Red Rose';
 }
 
 .hidden{
@@ -177,6 +181,7 @@ form input{
 .containers{
   width: 1200px;
   margin:  0px 100px;
+  font-family: 'Red-Rose';
 }
 
 
