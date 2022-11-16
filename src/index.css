@@ -174,7 +174,10 @@ form input{
   display: none;
 }
 
-
+.containers{
+  width: 1200px;
+  margin:  0px 100px;
+}
 
 
 @media screen and (max-width:576px){
@@ -233,7 +236,10 @@ form input{
     width: 320px;
     margin-top: 20px;
   }
- 
+   .containers{
+    width: 350px;
+    margin:  0px 05px;
+  }
  
  
 }
