@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import mmask from '../Assets/mmask.png';
 import wallet from '../Assets/wallet.png';
 import arrow from '../Assets/arrow.png';
+import { Link } from "react-router-dom";
 
 
 
@@ -17,11 +18,11 @@ function NavBar() {
         <Navbar.Brand href="/home"><img src={logo} className='nav-img' alt='MetaBnb'/></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mx-auto bars">
-            <Nav.Link className='px-4' href="/">Home</Nav.Link>
-            <Nav.Link className='px-4' href="/placetostay">Place to stay</Nav.Link>
-            <Nav.Link className='px-4' >NFTs</Nav.Link>
-            <Nav.Link className='px-4'>Community</Nav.Link>
+          <Nav className="mx-auto  bars">
+            <Link className="nav-link px-4 text-dark" to="/">Home</Link>
+            <Link className="nav-link px-4 text-dark" to="/placetostay">Place to stay</Link>
+            <Link className="nav-link px-4 text-dark" >NFTs</Link>
+            <Link className="nav-link px-4 text-dark">Community</Link>
           </Nav>
           
           <div className="col-12 col-xl-3">
